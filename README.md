@@ -15,7 +15,7 @@ Out of the box it provides several ways to convert between many of these:
 * .get() : Result -> throws
 * init(catching:) : throws -> Result
 
-This library adds the rest (note that converting from a fatalError() to anything else is not really possible).
+This library adds the rest (note that converting from a fatalError() to anything else is not really possible - but see [this post by Matt Gallagher](http://www.cocoawithlove.com/blog/2016/02/02/partial-functions-part-two-catching-precondition-failures.html) for a workaround).
 
 * unwrap() : Optional -> throws
 * unwrap() : Result -> throws (with more information)
